@@ -1,0 +1,11 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shop {
+    border: 1px dotted black;
+    margin: 0px 5px;
+    padding: 2px;
+    width: 15 px;
+}

@@ -1,11 +1,51 @@
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+} 
+
 .list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .shop {
     border: 1px dotted black;
     margin: 0px 5px;
     padding: 2px;
-    width: 15 px;
+    width: 25%;
+    background-color: rgb(185, 113, 19);
 }
+
+.shop__tagline {
+    color:cornsilk;
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+.shop__address {
+    padding-top: 10px;
+    font-size: smaller;
+}
+
+.shop__phone {
+    padding-bottom: 10px;
+    font-size: smaller;
+}
+
+.shop__link {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+a:link, a:visited {
+    color: white;
+  }
+  
+  a:hover, a:active {
+    background-color: brown;
+  }

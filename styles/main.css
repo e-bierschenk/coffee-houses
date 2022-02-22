@@ -18,6 +18,9 @@ h1 {
     padding: 2px;
     width: 25%;
     background-color: rgb(185, 113, 19);
+
+    display: flex;
+    flex-direction: column;
 }
 
 .shop__tagline {
@@ -38,7 +41,7 @@ h1 {
 
 .shop__link {
     display: flex;
-    align-items: baseline;
+    align-items: flex-end;
     justify-content: space-evenly;
 }
 
